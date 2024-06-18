@@ -33,24 +33,7 @@ class healthSmokeSpec extends SmokeBases.TableGameBase {
       "Verify that game looby is loaded success without error",
       async () => {
         const gamelobby = await this.game.captureLocator("gamelobby");
-        expect(gamelobby.image).toMatchSnapshot(gamelobby.name,{maxDiffPixelRatio: 0.02});
-        // if (process.env.npm_config_project === "l1") {
-        //   const newtab = await navigateDownloadPage(
-        //     this.game.page.context(),
-        //     this.game.page
-        //   );
-        //   for (const iterator of lstItems) {
-        //     await newtab.click(iterator.control);
-        //     await newtab.waitForLoadState();
-        //     await newtab.waitForTimeout(2000);
-        //     expect(
-        //       await newtab.screenshot({
-        //         path: `screenshots/${iterator.imageName}`,
-        //         fullPage: true,
-        //       })
-        //     ).toMatchSnapshot(iterator.imageName, { maxDiffPixelRatio: 0.05 });
-        //   }
-        // }
+        expect(gamelobby.image).toMatchSnapshot(gamelobby.name,{maxDiffPixelRatio: 0.02});       
       }
     );
   }
@@ -62,12 +45,3 @@ class healthSmokeSpec extends SmokeBases.TableGameBase {
 
 new healthSmokeSpec().start();
 
-// const navigateDownloadPage = async (context: any, page: any) => {
-//   const [newtab] = await Promise.all([
-//     context.waitForEvent("page"),
-//     await page.locator("id=GameCanvas").click({ position: { x: 943, y: 650 } }),
-//   ]);
-//   await newtab.waitForLoadState();
-//   await newtab.waitForTimeout(10000);
-//   return newtab;
-// };
