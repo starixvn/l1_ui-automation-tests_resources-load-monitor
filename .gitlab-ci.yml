@@ -52,7 +52,6 @@ smoketest:
       - playwright-report
       - screenshots
       - test-results
-      - csv
     when: always
     expire_in: 1 day
 
