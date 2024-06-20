@@ -39,7 +39,7 @@ smoketest:
     - auto-test-prod
   script:
     - cd tests
-    - npm run test:smoke --env=$ENV --gameid=$GAMEID --project=$STACK_NAME --trackDownload=true
+    - npm run test:smoke --env=$ENV --gameid=0 --project=$STACK_NAME --trackDownload=true
 
   retry: 1
   rules:
