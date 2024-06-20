@@ -226,10 +226,10 @@
   "resolved" "http://npm.lumigame.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
   "version" "0.13.11"
 
-"sc-automation-core@1.42.1-beta.4":
-  "integrity" "sha512-HN2NZnUvGROap+syoFsJQOQWEOnrU/Q471YblXz2/16QCqsNNw8DgWEuSJ/OzpRGB7CNSjzWvsCq4VC6veysKg=="
-  "resolved" "http://npm.lumigame.com/sc-automation-core/-/sc-automation-core-1.42.1-beta.4.tgz"
-  "version" "1.42.1-beta.4"
+"sc-automation-core@1.42.1-beta.6":
+  "integrity" "sha512-Zg8SH1xp4LFRKCFZiljWsIq/HLgDyorRY9qGGnbXBnXK9swObUNJycP9w255tWtKBGUxk21Pz9k88bCo+cHK1g=="
+  "resolved" "http://npm.lumigame.com/sc-automation-core/-/sc-automation-core-1.42.1-beta.6.tgz"
+  "version" "1.42.1-beta.6"
   dependencies:
     "csv-stringify" "^6.5.0"
     "pngjs" "^7.0.0"

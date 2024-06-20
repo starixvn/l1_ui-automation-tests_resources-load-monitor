@@ -21,7 +21,9 @@ export const gamelobbyConfigs: Components.GameConfiguration = {
     local: "222221",
     local1: "222221",
     local2: "222221",
-    local3: "222221"
+    local3: "222221",
+    l1prod: "supertestte120201001",
+    l2prod: "QCTest22082313",
   },
   productId: { l1: 0, l2: 0 },
 };
