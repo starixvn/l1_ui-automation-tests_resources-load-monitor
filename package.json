@@ -4,7 +4,7 @@
     "description": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "test:smoke": "playwright test --project=Smoke_CI --workers=1",
+        "test:smoke": "playwright test --project=Smoke_CI --workers=1"
     },
     "repository": {
         "type": "git",
