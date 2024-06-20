@@ -39,7 +39,7 @@ smoketest:
     - e2e-test
   script:
     - cd tests
-    - npm run test:smoke --env=$ENV --gameid=$GAMEID --project=$STACK_NAME
+    - npm run test:smoke --env=$ENV --gameid=$GAMEID --project=$STACK_NAME --trackDownload=true
 
   retry: 1
   rules:
