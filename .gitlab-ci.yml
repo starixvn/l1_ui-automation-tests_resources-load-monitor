@@ -36,7 +36,7 @@ smoketest:
   image: hub.lumigame.com/pentagon-base/resource-monitor-game-$GAMEID
   stage: test
   tags:
-    - e2e-test
+    - auto-test-prod
   script:
     - cd tests
     - npm run test:smoke --env=$ENV --gameid=$GAMEID --project=$STACK_NAME --trackDownload=true
