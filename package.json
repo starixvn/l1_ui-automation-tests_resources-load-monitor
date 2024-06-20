@@ -5,7 +5,6 @@
     "main": "index.js",
     "scripts": {
         "test:smoke": "playwright test --project=Smoke_CI --workers=1",
-        "update-snapshots": "playwright test --update-snapshots  --project=E2E_CI"
     },
     "repository": {
         "type": "git",

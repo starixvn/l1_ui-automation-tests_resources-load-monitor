@@ -6,11 +6,6 @@ export const gameLobbyLocators = [
   new Components.ImageLocator("gamelobby", 405, 667, 136, 44),
 ];
 
-const lstItems = [
-  { control: "[id$=tab-ios]", imageName: "taiSabaIOS.png" },
-  { control: "[id$=tab-android]", imageName: "taiSabaAndroid.png" },
-];
-
 class healthSmokeSpec extends SmokeBases.TableGameBase {
   /**
    *
